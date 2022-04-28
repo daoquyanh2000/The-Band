@@ -240,7 +240,7 @@ html {
     padding-top: 50%;
     position: relative;
     margin-top: 46px;
-    background: url(https://daoquyanh2000.github.io/The-Band/assets/img/hololive-myth.png) no-repeat top center /contain;
+    background: url("https://daoquyanh2000.github.io/The-Band/assets/img/hololive-myth.png") no-repeat top center /contain;
 
 }
 
@@ -481,7 +481,7 @@ html {
 /* map and footer */
 #map {
     padding-top: 50%;
-    background: url(https://daoquyanh2000.github.io/The-Band/assets/img/hololive-member.jpeg) top center /cover;
+    background: url("https://daoquyanh2000.github.io/The-Band/assets/img/hololive-member.jpeg") top center /cover;
 }
 
 
