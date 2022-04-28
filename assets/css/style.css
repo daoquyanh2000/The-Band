@@ -240,7 +240,7 @@ html {
     padding-top: 50%;
     position: relative;
     margin-top: 46px;
-    background: url(/assets/img/hololive-myth.png) no-repeat top center /contain;
+    background: url(assets/img/hololive-myth.png) no-repeat top center /contain;
 
 }
 
@@ -481,7 +481,7 @@ html {
 /* map and footer */
 #map {
     padding-top: 50%;
-    background: url(/assets/img/hololive-member.jpeg) top center /cover;
+    background: url(assets/img/hololive-member.jpeg) top center /cover;
 }
 
 
