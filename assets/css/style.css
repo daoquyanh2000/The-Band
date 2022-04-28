@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    scroll-behavior: smooth;
+}
+
+.input {
+    display: block;
+    width: 100%;
+
+}
+
+.white-text {
+    color: #fff;
+}
+
+.button-hover:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #757575;
+}
+
+.hover-opacity:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+/*  tu ngoai vao trong
+    tu tren xuong duoi 
+    tong quan den chi tiet */
+/*  vi tri
+    kich thuoc 
+    mau sac
+    kieu dang
+     */
+#main {
+    scroll-behavior: smooth;
+
+}
+
+.margin-center {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+/* tickets modal */
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.modal.modal-close {
+    display: none;
+}
+
+.modal-container {
+    box-shadow: 0 0 5px;
+    animation: modalFadeIn ease .5s;
+    background-color: #fff;
+    width: 1000px;
+    min-height: 200px;
+    margin: 0 16px;
+
+}
+
+.modal-heading {
+    font-size: 24px;
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+    display: block;
+    padding: 44px 12px;
+    position: relative;
+    letter-spacing: 5px;
+}
+
+.modal-heading>h2 {
+    font-weight: 400;
+}
+
+.modal-heading i {
+    padding-right: 10px;
+
+}
+
+.modal-heading>span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 18px;
+}
+
+.modal-body {
+    padding: 12px;
+}
+
+.modal-body>label {
+    padding: 12px 0;
+    display: block;
+}
+
+.modal-body>input {
+
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.modal-button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #009688;
+    color: #fff;
+    padding: 12px 0;
+    margin-top: 12px;
+    font-size: 24px;
+}
+
+.modal-footer {
+    padding-top: 12px;
+    text-align: right;
+}
+
+/* tickets modal */
+/* nav  */
+#header {
+
+    height: 46.5px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px;
+}
+
+#header #nav {
+    display: flex;
+}
+
+#nav li {
+    display: inline-block;
+    line-height: 46px;
+
+
+}
+
+#nav li:nth-child(6) {
+    position: relative;
+}
+
+#nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 24;
+    text-transform: uppercase;
+}
+
+#nav>li:hover>a,
+.subnav>li:hover>a {
+    background-color: #ccc;
+    color: #000;
+    display: block;
+}
+
+#nav .subnav li {
+    width: 100%;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px;
+    top: 100%;
+    left: 0;
+    display: none;
+
+}
+
+#nav .subnav>li>a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 0 24;
+    text-transform: uppercase;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 18px;
+    line-height: 46px;
+
+
+}
+
+#header .search-btn {
+    margin-left: auto;
+    padding: 0 20px;
+
+
+}
+
+#header .search-btn:hover,
+#header .menu-icon:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+/* nav  */
+/* silder */
+#slider {
+    padding-top: 50%;
+    position: relative;
+    margin-top: 46px;
+    background: url(/assets/img/hololive-myth.png) no-repeat top center /contain;
+
+}
+
+
+
+/* silder */
+/* content */
+
+
+.content-section {
+    padding: 64px 16px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.content-heading {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+}
+
+.content-description {
+    padding: 16px 0;
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+
+}
+
+.text-theband {
+    text-align: justify;
+    line-height: 24px;
+    display: none;
+
+}
+
+.text-theband.text-1 {
+    display: block;
+}
+
+.text-theband.text-2 {
+    display: none;
+}
+
+.text-theband.text-3 {
+    display: none;
+}
+
+.text-theband.text-4 {
+    display: none;
+}
+
+.text-theband.text-5 {
+    display: none;
+}
+
+.black-content {
+    padding: 0px 16px;
+    background-color: #000;
+}
+
+.container {
+    padding-bottom: 70px;
+}
+
+#black-content .tourdate {
+    color: #fff;
+}
+
+.member-name {
+    padding-bottom: 15px;
+}
+
+.member-section {
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member-list {
+    width: 15%;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.member-img {
+    border-radius: 50%;
+    width: 100%;
+
+}
+
+/* content */
+
+
+/* tourdate section */
+.tickets li {
+    font-size: 14px;
+    color: #757575;
+    background-color: #fff;
+    padding: 14px;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+
+}
+
+.tickets li .sold-out {
+
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #f44336;
+    color: #fff;
+
+}
+
+.tickets .quantily {
+    float: right;
+    background-color: #000;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.tickets-info {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.place-img {
+    width: 100%;
+}
+
+.place-list {
+    width: 32%
+}
+
+.place-content {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 16px;
+
+}
+
+.place-time {
+    padding-top: 16px;
+    opacity: 0.6;
+}
+
+.place-description {
+    padding: 16px 0;
+}
+
+.place-btn {
+    font-size: 16px;
+    padding: 12px;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: max-content;
+}
+
+.place-content a:hover {
+    background-color: #757575;
+    color: #000;
+
+}
+
+/* tourdate section */
+
+/* contact section */
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-info {
+    list-style-type: none;
+    font-size: 18px;
+
+}
+
+.contact .contact-info i {
+    width: 30px;
+}
+
+.right-contact input {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.contact-send {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-name input {
+    width: 80%;
+}
+
+.contact-smg {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+
+}
+
+.contact-btn {
+    display: block;
+    float: right;
+    border: none;
+    background-color: #000;
+    font-size: 14px;
+    padding: 12px 16px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* contact section */
+
+/* map and footer */
+#map {
+    padding-top: 50%;
+    background: url(/assets/img/hololive-member.jpeg) top center /cover;
+}
+
+
+#footer {
+    font-size: 24px;
+    margin: 45px 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+#footer i {
+    padding: 0 5px;
+}
+
+#footer>p {
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+/* map and footer */
+
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

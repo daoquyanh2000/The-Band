@@ -1,0 +1,120 @@
+/* css in mobile*/
+@media (max-width:739px) {
+
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header #nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    #nav>li:first-child {
+        width: fit-content;
+        position: relative;
+    }
+
+    #nav>li:last-child {
+        display: none;
+    }
+
+    .menu-icon {
+        color: #fff;
+        line-height: 46px;
+        position: absolute;
+        padding: 16px 24px;
+        top: 0;
+        right: 0;
+    }
+
+    #nav .subnav {
+        background-color: #000;
+        position: initial;
+        box-shadow: 2px 2px 5px;
+    }
+
+    #nav .subnav li a {
+        color: #fff;
+        padding: 0px 75px;
+    }
+
+    #slider {
+        position: relative;
+    }
+
+    #slider .text-content {
+        position: relative;
+        background: #fff;
+        color: #000;
+        padding: 16px 0px;
+    }
+
+    #band {
+        padding: 16px 16px
+    }
+
+    #band .member-section {
+        flex-direction: column;
+
+    }
+
+    #band .member-list {
+        width: 50%;
+    }
+
+    #band .member-name {
+        padding: 16px 0;
+
+
+    }
+
+    #tour .tickets-info {
+        flex-direction: column;
+    }
+
+    #tour .place-list {
+        padding: 16px 0;
+        width: 100%;
+    }
+
+    #contact .contact {
+        flex-direction: column;
+
+    }
+
+    #contact .contact-send {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .contact-send input {
+        margin: 5px 0px;
+        width: 100%;
+    }
+
+    .contact-btn {
+        width: 100%;
+    }
+
+}
+
+/* css in pc*/
+@media (min-width:740px) {
+    #nav li:nth-child(5) {
+        display: none;
+    }
+
+    #header {
+        height: max-content;
+    }
+
+    #nav .menu-btn {
+        display: none;
+    }
+
+
+}
